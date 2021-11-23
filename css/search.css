@@ -1,0 +1,49 @@
+.where-togo{
+    color: white;
+    background-color: #040E27;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    margin-top: 20px;
+}
+
+.where-togo header {
+    font-size: 24px;
+    font-weight: lighter;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.where-togo form input{
+    border: white 1px solid;
+    background-color: transparent;
+    color: white;  
+    height: 30px;
+    padding: 1px;
+    border-radius: 4px;
+    width:190px
+}
+
+.where-togo form select {
+    border: white 1px solid;
+    background-color: transparent;
+    color: white; 
+    height: 30px;
+    padding: 1px;
+    border-radius: 2px;
+    width:190px
+}
+.where-togo form button{
+    color: white;
+    background-color:rgb(204, 61, 85);
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+    padding: 1px;
+    margin-left: 10px;
+    border-color: transparent;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}

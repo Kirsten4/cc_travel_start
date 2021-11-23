@@ -1,0 +1,192 @@
+.popular-destinations{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+}
+
+.popular-destinations header {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.popular-destinations p {
+    font-weight:lighter;
+    color: rgb(102, 102, 102);
+    
+}
+
+  .popular-bg-1 {
+    background-image: url(../img/destination/italy.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: italy;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popular-bg-2 {
+    background-image: url(../img/destination/brazil.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: brazil;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popular-bg-3 {
+    background-image: url(../img/destination/america.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: america;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popular-bg-4 {
+    background-image: url(../img/destination/nepal.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: nepal;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popular-bg-5 {
+    background-image: url(../img/destination/maldives.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: maldives;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popular-bg-6 {
+    background-image: url(../img/destination/indonesia.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: indonesia;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+}
+
+  .popular-grid {
+      display: grid;
+      justify-items: center;   
+      grid-template-areas: 
+        'italy brazil america'
+        'nepal maldives indonesia';   
+  }
+
+  .popular-grid div {
+      color: white;
+      padding-top: 170px;
+      margin-bottom: 20px;
+      
+  }
+
+  .places {
+      background-color: mediumturquoise;
+      color: white;
+      border-radius: 12px;
+      border-color: transparent;
+      margin: 8px;
+      font-size: 10px;
+      text-decoration: underline;
+      vertical-align: text-bottom;      
+  }
+
+  .popular-grid div label {
+      vertical-align: text-bottom;
+  }
+
+  .popular-places header {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.popular-places p {
+    font-weight:lighter;
+    color: rgb(102, 102, 102);
+    margin-left: 30px;
+    
+}
+
+  .popular-place-bg-1 {
+    background-image: url(../img/place/california.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: california;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popular-place-bg-2 {
+    background-image: url(../img/place/korola_megna.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: korola;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popular-place-bg-3 {
+    background-image: url(../img/place/london.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: london;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popular-place-bg-4 {
+    background-image: url(../img/place/miami.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: miami;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popular-place-bg-5 {
+    background-image: url(../img/place/california_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: california2;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popular-place-bg-6 {
+    background-image: url(../img/place/iceland.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-area: iceland;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+}
+
+.popular-places-grid {
+    display: grid;
+    justify-items: center;   
+    grid-template-areas: 
+      'california korola london'
+      'miami california2 iceland';   
+}
+
+.pp-class {
+    vertical-align: bottom;
+}
